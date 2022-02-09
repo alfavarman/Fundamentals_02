@@ -1,0 +1,5 @@
+print("tuples - are stored data, \nonce created can't be change/edit \nif you try to change compilator throw up err \nusefull to store permanent values like coordinates for insance. \nthey will come in circle bracket")
+birth = (5, "june", 1989)
+print(birth)
+birth.__add__(1)
+print(birth)

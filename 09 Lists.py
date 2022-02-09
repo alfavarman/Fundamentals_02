@@ -1,0 +1,22 @@
+nbrs = [1, 2, 43, 544, 32, 3443.4, 23.323, 3234, 2233, 4, 5534, 100000000]
+nm1 = ["Charles", "Saimon", "Wlodek", "Victor", "Ada", "Darek", "Konrad", "Iga", "Charles", "Saimon", "Wlodek", "Victor", "Ada", "Darek", "Konrad", "Iga"]
+nm = ["Charles", "Saimon", "Wlodek", "Victor", "Ada", "Darek", "Konrad", "Iga"]
+nm.append("Zochowski")
+nm.insert(4,"Krolowa Pattaya")
+nm.extend(nbrs)
+print(nm)
+nbrs.remove(2)
+print(nbrs)
+nm.clear()
+print(nm)
+nbrs.pop()
+print(nbrs)
+print(nm1)
+print(nm1.index("Charles"))
+print(nm1.count("Charles"))
+nm1.sort()
+print(nm1)
+nm1.reverse()
+print(nm1)
+nm2 = nm1.copy()
+print("this is copy: " + str(nm2))

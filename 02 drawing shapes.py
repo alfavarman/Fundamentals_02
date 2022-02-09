@@ -1,0 +1,6 @@
+print("_________")
+print("|       |")
+print("| o   0 |")
+print("|       |")
+print("|       |")
+print("|________")
